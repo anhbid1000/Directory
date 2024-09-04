@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100%;
+  display: grid;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
+/* Form 1 */
+.sec-1 {
+  position: fixed;
+  background-color: aliceblue;
+  height: 20vh;
+  width: 100%;
+}
+.information {
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr;
+}
+
+.form-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 30%) 20%;
+  gap: 20px;
+  justify-self: center;
+  justify-content: center;
+  height: 60%;
+  width: 90%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+}
+
+.name,
+.phone {
+  height: 80%;
+  padding-left: 10px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.199);
+}
+
+.btn-1 {
+  height: 80%;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.199);
+  color: white;
+  background-color: rgb(111, 36, 182);
+}
+.btn-1:hover {
+  background-color: rgb(87, 15, 154);
+}
+
+.clicked {
+  transform: scale(0.9);
+}
+
+/* form-2 */
+
+.sec-2 {
+  position: fixed;
+  background-color: aliceblue;
+  height: 12vh;
+  width: 100%;
+  top: 120px;
+}
+.thaotac {
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+.form-2 {
+  width: 90%;
+  height: 40%;
+  grid-column: 1/-1;
+  justify-self: center;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 50% 10% 20%;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+
+.search {
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.199);
+  padding-left: 10px;
+}
+
+.btn-2,
+.btn-3 {
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.199);
+  color: white;
+  background-color: rgb(111, 36, 182);
+}
+.btn-2:hover,
+.btn-3:hover {
+  background-color: rgb(87, 15, 154);
+}
+
+/* section 3 */
+.sec-3 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+/* .list {
+  background-color: rgba(93, 91, 91, 0.205);
+  width: 75%;
+  height: 100px;
+  border-radius: 10px;
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.span1 {
+  padding-left: 30px;
+}
+.span2 {
+  justify-self: end;
+  padding-right: 30px;
+} */
+
+/* div temp */
+.temp {
+  width: 100%;
+  height: 32vh;
+}
